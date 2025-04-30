@@ -29,7 +29,7 @@ interface BlogProps {
 //         </div>
 //     );
 // };
- export const FullBlog = ({ title, author, id, content, date }: BlogProps) => {
+ export const FullBlog = ({ title, author, content, date }: BlogProps) => {
     return (
         <div>
            <Appbar/>
